@@ -18,8 +18,8 @@ numlockx &
 sxhkd &
 dwmblocks &
 nvidia-settings -l --config=~/.config/nvidia/settings/.nvidia-settings-rc &
-exec dunst -conf ~/.config/dunst/dunstrc &
-exec picom -b --config ~/.config/picom.conf &
-exec nitrogen --restore &
-exec playerctld daemon &
+dunst -conf ~/.config/dunst/dunstrc &
+picom -b --config ~/.config/picom.conf &
+nitrogen --restore &
+playerctld daemon &
 exec dwm

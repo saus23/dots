@@ -54,17 +54,13 @@ alias jctl='journalctl'
 alias updb='sudo updatedb'
 alias calc='bc --mathlib'
 alias smi='nvidia-smi'
-alias headset='pactl set-default-sink 0 && kill -44 $(pidof dwmblocks)'
-alias speakers='pactl set-default-sink 1 && kill -44 $(pidof dwmblocks)'
-alias fast='sudo vim /var/log/suricata/fast.log'
+alias headset='pactl set-default-sink 1 && kill -44 $(pidof dwmblocks)'
+alias speakers='pactl set-default-sink 0 && kill -44 $(pidof dwmblocks)'
+alias fast='sudo bat /var/log/suricata/fast.log'
 alias notes='vim ~/misc/notes/notes'
 alias restart='systemctl restart'
 alias dupes='fdupes --order=time -irdN'
-alias cache='sudo paccache -ruk 1'
 alias sd='killall dbus-daemon && sudo poweroff'
-alias tera="cd ~/Games/tera/drive_c/Program\ Files/Menma\'s\ TERA/proxy/mods"
-alias tb="cd ~/.local/share/wineprefixes/default/drive_c/Program\ Files/TeraToolbox"
-alias handbrake="flatpak run fr.handbrake.ghb"
 
 # Variables
 export STARSHIP_CONFIG=~/.config/starship.toml
@@ -80,13 +76,3 @@ eval "$(starship init zsh)"
 
 # Highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Path
-#export PATH=$HOME/.config/scripts:$HOME/bin:$HOME/.local/bin:$HOME/.local/share/bin:$HOME/misc/appimages:$PATH
-
-# Variables
-#export EDITOR='vim'
-#export BROWSER='/usr/bin/brave'
-#export MANGOHUD=1
-#export MANGOHUD_DLSYM=1
-#export COREHOST_TRACE=1

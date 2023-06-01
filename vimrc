@@ -21,6 +21,8 @@ highlight LineNr ctermfg=darkgrey
 set mouse=a
 inoremap kj <Esc>
 set number
+set ignorecase
+set smartcase
 set incsearch
 set scrolloff=8
 set numberwidth=1

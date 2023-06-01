@@ -19,14 +19,11 @@ export __GL_SHADER_DISK_CACHE_PATH=~/.cache/nv
 export VKBASALT_CONFIG_FILE=~/.config/vkBasalt/vkBasalt.conf
 export IDAUSR=~/.config/idapro
 export AUDIBLE_CONFIG_DIR=~/.config/audible
-export DESKTOP_SESSION=/usr/share/xsessions/dwm.desktop
 
 export PATH=$HOME/.config/scripts:$HOME/bin:$HOME/.local/bin:$HOME/.local/share/bin:$HOME/misc/appimages:/opt/cuda/bin:$PATH
 
 
 # variables
-#export MANGOHUD=1
-#export MANGOHUD_DLSYM=1
 export TERMINAL='st'
 export EDITOR='vim'
 export BROWSER='brave'

@@ -1,0 +1,48 @@
+!! Transparency
+!!*.alpha: 0.8
+
+!! Font and Size
+*.font: Hack Nerd Font Mono:pixelsize=21:antialias=true
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Gruvbox Material Dark
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! dark
+!*background: #1d2021
+!! medium
+!! *background: #282828
+!! soft
+!*background: #32302f
+!! white
+*background: #d4be98
+!! Foreground
+*foreground: #d4be98
+!! Cursor
+*cursorColor: #d4be98
+!! Black + DarkGrey (swapping color 0 & 8)
+*color0:  #1D2021
+*color8:  #32302f
+!! DarkRed + Red
+*color1:  #D1605A
+*color9:  #ea6962
+!! DarkGreen + Green
+*color2:  #A0AB60
+*color10: #a9b665
+!! DarkYellow + Yellow
+*color3:  #DC844B
+*color11: #D7A556
+!! DarkBlue + Blue
+*color4:  #709990
+*color12: #7daea3
+!! DarkMagenta + Magenta
+*color5:  #BA7A8B
+*color13: #d3869b
+!! DarkCyan + Cyan
+*color6:  #779B72
+*color14: #89b482
+!! LightGrey + White
+*color7:  #d4be98
+*color15: #F2E5BC
+!!dwm
+dwm.color4: #779B72
+dmenu.color4: #779B72

@@ -1,5 +1,5 @@
 !! Transparency
-!!*.alpha: 0.8
+!!*.alpha: 0.8	//set directly in st/config.h so it doesnt affect text
 
 !! Font and Size
 *.font: Hack Nerd Font Mono:pixelsize=21:antialias=true
@@ -41,7 +41,7 @@
 *color6:  #779B72
 *color14: #89b482
 !! LightGrey + White
-*color7:  #d4be98
+*color7:  #ad9c80
 *color15: #F2E5BC
 !!dwm
 dwm.color4: #779B72

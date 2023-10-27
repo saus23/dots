@@ -2,7 +2,7 @@
 !!*.alpha: 0.8	//set directly in st/config.h so it doesnt affect text
 
 !! Font and Size
-*.font: Hack Nerd Font Mono:pixelsize=21:antialias=true
+*.font: Hack Nerd Font Mono:style=Regular:size=10:autohint=true:antialias=true
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Gruvbox Material Dark

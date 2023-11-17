@@ -24,9 +24,14 @@ set number
 set ignorecase
 set smartcase
 set incsearch
-set scrolloff=8
-set numberwidth=1
+set noexpandtab
 set relativenumber
+set autoindent
+set scrolloff=12
+set numberwidth=1
 set statusline=%F
 set laststatus=2
+set tabstop=4
+set shiftwidth=4
+set title
 hi StatusLine ctermbg=grey ctermfg=black

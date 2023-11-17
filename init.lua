@@ -253,6 +253,7 @@ vim.cmd("set tabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set laststatus=2")
 vim.cmd("set relativenumber")
+vim.cmd("set title")
 
 --block cursor
 vim.opt.guicursor=""

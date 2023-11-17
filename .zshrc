@@ -16,10 +16,9 @@ autoload -Uz compinit
 compinit
 
 # Aliases
-alias ls='exa -lah --group-directories-first'
+alias ls='eza -lah --group-directories-first'
 alias c='bat'
 alias x='clean && exit'
-alias btop='bpytop'
 alias i7z='sudo i7z'
 alias ufw='sudo ufw'
 alias Syu='sudo pacman -Syu'
@@ -32,8 +31,8 @@ alias deps='pacman -Qii'
 alias nordc='nordvpn connect'
 alias nordd='nordvpn disconnect'
 alias hist='history 1'
-alias v='vim'
-alias sv='sudo vim'
+alias v='nvim'
+alias sv='sudo -E -s nvim'
 alias rb='killall dbus-daemon && sudo reboot'
 alias sx='startx'
 alias mnt='sudo mount -o discard /dev/sda /mnt/media'
@@ -41,7 +40,7 @@ alias umnt='sudo umount /mnt/media'
 alias liquidctl='sudo liquidctl'
 alias res='xrandr --output DP-4 --mode 3840x2160 --rate 119.91'
 alias nap='systemctl suspend'
-alias B='cd /mnt/media'
+alias B='cd /mnt/media && ls'
 alias neo='neofetch'
 alias fail='sudo systemctl list-units --failed'
 alias status='sudo systemctl status'
@@ -51,16 +50,21 @@ alias pdf='evince'
 alias nv-set='nvidia-settings --config=~/.config/nvidia/settings/.nvidia-settings-rc'
 alias jlog='journalctl --no-pager -b -1 > journal.log'
 alias jctl='journalctl'
-alias updb='sudo updatedb'
+alias db='sudo updatedb'
 alias calc='bc --mathlib'
 alias smi='nvidia-smi'
-alias headset='pactl set-default-sink 1 && kill -44 $(pidof dwmblocks)'
+alias headset='pactl set-default-sink 9 && kill -44 $(pidof dwmblocks)'
 alias speakers='pactl set-default-sink 0 && kill -44 $(pidof dwmblocks)'
 alias fast='sudo bat /var/log/suricata/fast.log'
-alias notes='vim ~/misc/notes/notes'
+alias notes='nvim ~/misc/notes/notes'
 alias restart='systemctl restart'
 alias dupes='fdupes --order=time -irdN'
 alias sd='killall dbus-daemon && sudo poweroff'
+alias crop='ffautocrop'
+alias ffp='ffprobe'
+alias d2='cd /mnt/media/Notes/d2-notes && ls'
+alias p='nomacs'
+alias code='cd ~/misc/code && ls'
 
 # Variables
 export STARSHIP_CONFIG=~/.config/starship.toml
@@ -76,3 +80,6 @@ eval "$(starship init zsh)"
 
 # Highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Window Title
+precmd () { print -Pn "\e]2;%~\a" } # title bar prompt

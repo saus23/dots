@@ -40,7 +40,7 @@ alias umnt='sudo umount /mnt/media'
 alias liquidctl='sudo liquidctl'
 alias res='xrandr --output DP-4 --mode 3840x2160 --rate 119.91'
 alias nap='systemctl suspend'
-alias B='cd /mnt/media && ls'
+alias B='cd /mnt/media'
 alias neo='neofetch'
 alias fail='sudo systemctl list-units --failed'
 alias status='sudo systemctl status'
@@ -62,9 +62,10 @@ alias dupes='fdupes --order=time -irdN'
 alias sd='killall dbus-daemon && sudo poweroff'
 alias crop='ffautocrop'
 alias ffp='ffprobe'
-alias d2='cd /mnt/media/Notes/d2-notes && ls'
+alias d2='cd /mnt/media/Notes/d2-notes'
 alias p='nomacs'
-alias code='cd ~/misc/code && ls'
+alias code='cd ~/misc/code'
+cd() { builtin cd "$@" && ls }
 
 # Variables
 export STARSHIP_CONFIG=~/.config/starship.toml
@@ -82,4 +83,4 @@ eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Window Title
-precmd () { print -Pn "\e]2;%~\a" } # title bar prompt
+precmd () { print -Pn "\e]2;%~\a" }

@@ -1,0 +1,101 @@
+Started initial process 2292720 from gamemoderun /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/bin/wine /home/saus/Games/league-of-legends/drive_c/Riot Games/Riot Client/RiotClientServices.exe --locale=en_US --launch-product=league_of_legends --launch-patchline=live
+Start monitoring process.
+gamemodeauto: 
+fsync: up and running.
+wine: Using setpriority to control niceness in the [-10,10] range
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstdtls.so': libcrypto.so.1.1: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstflac.so': libFLAC.so.8: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwebp.so': libwebp.so.6: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstsoup.so': libsoup-2.4.so.1: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstrsdav1d.so': libdav1d.so.5: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgsthls.so': libnettle.so.6: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so: undefined symbol: gst_wayland_display_handle_context_get_handle
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstvpx.so': libvpx.so.5: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstjpeg.so': libjpeg.so.62: cannot open shared object file: No such file or directory
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so: wrong ELF class: ELFCLASS32
+
+(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so: wrong ELF class: ELFCLASS32
+56175.281:0988:098c:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Program name: "LeagueClientUxRender.exe" (hash: f676b078b8a3bc16)
+56175.281:0988:098c:info:vkd3d-proton:vkd3d_instance_deduce_config_flags_from_environment: shader_cache is used, global_pipeline_cache is enforced.
+56175.281:0988:098c:info:vkd3d-proton:vkd3d_config_flags_init_once: VKD3D_CONFIG=''.
+56175.281:0988:098c:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 2.10.0.
+56175.281:0988:098c:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: 88e4f300cc0b5b6.
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: No more than 1 device local heap, assuming ReBAR-style access. Using DEVICE_LOCAL | HOST_COHERENT for UPLOAD.
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_memory_info_init_budgets: Applying resizable BAR budget to memory types: 0x10.
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics.
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device supports VK_EXT_mutable_descriptor_type.
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+56175.362:0988:098c:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
+56175.362:0988:098c:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 6528, may be inaccurate.
+56175.362:0988:098c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
+56175.362:0988:098c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
+56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
+56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
+56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.110 ms.
+56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
+56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstdtls.so': libcrypto.so.1.1: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstflac.so': libFLAC.so.8: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwebp.so': libwebp.so.6: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstsoup.so': libsoup-2.4.so.1: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstrsdav1d.so': libdav1d.so.5: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgsthls.so': libnettle.so.6: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so: undefined symbol: gst_wayland_display_handle_context_get_handle
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstvpx.so': libvpx.so.5: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstjpeg.so': libjpeg.so.62: cannot open shared object file: No such file or directory
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so: wrong ELF class: ELFCLASS32
+
+(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so: wrong ELF class: ELFCLASS32
+Monitored process exited.
+Initial process has exited (return code: 0)
+Exit with return code 0

@@ -1,0 +1,193 @@
+000000.000| ALWAYS| Logging started at 2023-11-24T18:47:06.965
+000000.000| ALWAYS| Application Version:13.23.545.0322 - CL:5450322 - Build Date: Nov 22 2023 - Build Time:12:22:56
+000000.000| ALWAYS| Log file C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2023-11-24T18-47-06_1228_LeagueClientUx.log
+000000.000| ALWAYS| Running LeagueClientUx version 13.23.545.0322
+000000.000|   OKAY| Using initial working directory: "C:\Riot Games\League of Legends"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\LeagueClientUx.exe"
+000000.000|   OKAY| Command line arguments: --riotclient-auth-token=MgiEGpg4ze_zy6sJdPyUYw --riotclient-app-port=38985 --no-rads --disable-self-update --region=NA --locale=en_US --client-config-url=https://clientconfig.rpg.riotgames.com --riotgamesapi-standalone --riotgamesapi-settings=eyJjbGllbnQtY29uZmlnIjp7InVybCI6Imh0dHBzOi8vY2xpZW50Y29uZmlnLnJwZy5yaW90Z2FtZXMuY29tIn0sImRlZmF1bHRfcmVnaW9uIjoiTkEiLCJnbG9iYWxzIjp7InNlc3Npb24taWQiOiIzYzE0NWJhMS02YmJkLTM5NDMtYjgyYS1mZTljOGM2MTllZGIifSwicGF0Y2hsaW5lX2lkIjoibGl2ZSIsInByb2R1Y3QtaW50ZWdyYXRpb24iOnsiYXBwLXVwZGF0ZS1zdGF0dXMiOiJDOi9Qcm9ncmFtRGF0YS9SaW90IEdhbWVzL01ldGFkYXRhL2xlYWd1ZV9vZl9sZWdlbmRzLmxpdmUvbGVhZ3VlX29mX2xlZ2VuZHMubGl2ZS51cGRhdGUtc3RhdHVzLmpzb24iLCJoZWFydGJlYXQiOiJDOi91c2Vycy9zYXVzL0FwcERhdGEvTG9jYWwvUmlvdCBHYW1lcy9SaW90IENsaWVudC9EYXRhL1Nlc3Npb25zLzNjMTQ1YmExLTZiYmQtMzk0My1iODJhLWZlOWM4YzYxOWVkYi9NZ2lFR3BnNHplX3p5NnNKZFB5VVl3LmhlYXJ0YmVhdC5qc29uIiwibG9ja2ZpbGUiOiJDOi9Qcm9ncmFtRGF0YS9SaW90IEdhbWVzL01ldGFkYXRhL2xlYWd1ZV9vZl9sZWdlbmRzLmxpdmUvbGVhZ3VlX29mX2xlZ2VuZHMubGl2ZS5sb2NrZmlsZSIsInNldHRpbmdzIjoiQzovUHJvZ3JhbURhdGEvUmlvdCBHYW1lcy9NZXRhZGF0YS9sZWFndWVfb2ZfbGVnZW5kcy5saXZlL2xlYWd1ZV9vZl9sZWdlbmRzLmxpdmUucHJvZHVjdF9zZXR0aW5ncy55YW1sIn0sInByb2R1Y3RfaWQiOiJsZWFndWVfb2ZfbGVnZW5kcyIsInB1Ymxpc2hlciI6InJpb3QiLCJyZWdpb25fZGF0YSI6eyJOQSI6eyJhdmFpbGFibGVfbG9jYWxlcyI6WyJjc19DWiIsImRlX0RFIiwiZWxfR1IiLCJlbl9BVSIsImVuX0dCIiwiZW5fUEgiLCJlbl9TRyIsImVuX1VTIiwiZXNfQVIiLCJlc19FUyIsImVzX01YIiwiZnJfRlIiLCJodV9IVSIsIml0X0lUIiwiamFfSlAiLCJrb19LUiIsInBsX1BMIiwicHRfQlIiLCJyb19STyIsInJ1X1JVIiwidGhfVEgiLCJ0cl9UUiIsInZpX1ZOIiwiemhfTVkiLCJ6aF9UVyJdLCJkZWZhdWx0X2xvY2FsZSI6ImVuX1VTIiwicnNvIjp7ImNsaWVudCI6ImxvbCJ9fX0sInJpb3RjbGllbnQiOnsiYXBwLXBvcnQiOiIzODk4NSIsImF1dGgtdG9rZW4iOiJNZ2lFR3BnNHplX3p5NnNKZFB5VVl3In0sInJpb3RnYW1lc2FwaSI6eyJwZXJzaXN0ZW5jZS1wYXRoIjoiQzovdXNlcnMvc2F1cy9BcHBEYXRhL0xvY2FsL1Jpb3QgR2FtZXMvTGVhZ3VlIG9mIExlZ2VuZHMifSwicnNvX2F1dGgiOnsiYXV0aG9yaXphdGlvbi1rZXkiOiJldzBLSUNBZ0lDSmpiMlJsSWpvZ0ltUllZM2hQYkdoeFdsY3hhR1JJVm14VVJWcFJUMVY0TUZJelRtdFZWMWt6VkVaRmRWSkhkR3RsYXpBeVkyMWtkazB6WjNkUFZHeFBZa1ZhYUdWc2JHaFJVVDA5SWl3TkNpQWdJQ0FpWTI5a1pWOTJaWEpwWm1sbGNpSTZJQ0pFVHpBd2RHcDFkMEo2WlRKVWMyRmpkMWQzVTNNd09FVklOMnhRZEd3MU1IUlBlVzkzWWkxNlp6UjZNRmxLVDFwYWNUbGplRUpvYVRGTmRURmlSMlF5WkhSYVRtcFBSbWN6YW1NMk5YTTBRazlNVVVSbWR5SU5DbjA9In19 --rga-lite --remoting-auth-token=GefgCEHJpkWwGWsvDC1HiA --respawn-command=LeagueClient.exe --respawn-display-name=League of Legends --app-port=37819 --install-directory=C:\Riot Games\League of Legends --app-name=LeagueClient --ux-name=LeagueClientUx --ux-helper-name=LeagueClientUxHelper --log-dir=LeagueClient Logs --crash-reporting= --crash-environment=NA1 --app-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2023-11-24T18-47-06_964_LeagueClient.log --app-pid=964 --output-base-dir=C:\Riot Games\League of Legends --no-proxy-server --ignore-certificate-errors
+000000.000|   OKAY| Memory Monitor enabled:
+000000.000|   OKAY| - update interval 5s
+000000.000|   OKAY| - memory delta threshold 10MiB
+000000.000|   OKAY| - page fault delta threshold 100K
+000000.000|   OKAY| - region count delta threshold 10
+000000.000| ALWAYS| Using Ux render executable path: C:\Riot Games\League of Legends\LeagueClientUxRender.exe
+000000.000| ALWAYS| Cef CommandLine: "C:/Riot Games/League of Legends/LeagueClientUx.exe" --app-log-file-path="C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2023-11-24T18-47-06_964_LeagueClient.log" --app-name=LeagueClient --app-pid=964 --app-port=37819 --browser-subprocess-path="C:\Riot Games\League of Legends\LeagueClientUxRender.exe" --crash-environment=NA1 --crash-reporting --ignore-certificate-errors --install-directory="C:\Riot Games\League of Legends" --lang=en-US --locale=en_US --log-dir="LeagueClient Logs" --log-file="C:\Riot Games\League of Legends\debug.log" --no-proxy-server --no-sandbox --output-base-dir="C:\Riot Games\League of Legends" --region=NA --remoting-auth-token=GefgCEHJpkWwGWsvDC1HiA --respawn-command=LeagueClient.exe --respawn-display-name="League of Legends" --ux-helper-name=LeagueClientUxHelper --ux-name=LeagueClientUx --disable-gpu-shader-disk-cache --disable-gpu-program-cache --disable-spell-checking --no-displaying-insecure-content --force-device-scale-factor=1 --disable-features=HardwareMediaKeyHandling,SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure --autoplay-policy=no-user-gesture-required --disable-extensions --product-version="LeagueOfLegendsClient/13.23.545.0322 (CEF 91)" --user-agent-product="LeagueOfLegendsClient/13.23.545.0322 (CEF 91)"
+000000.000|   OKAY| Working Set Size: 205MiB Peak: 249MiB   Pagefile Usage: 172MiB Peak: 172MiB   Private Usage: 0MiB
+000000.000|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.000|   OKAY| Committed Total: 217MiB   Committed Image: 195MiB   Committed Mapped: 11MiB   Committed Private: 10MiB   Reserved Total: 7MiB   Reserved Image: 0MiB   Reserved Mapped: 0MiB   Reserved Private: 7MiB   Free Total: 134217502MiB   Limit: 134217727MiB   Largest Free: 129222706MiB   Region Count: 802
+000000.001|   OKAY| Page Fault Count: 0K
+000000.184| ALWAYS| Initial dpiScale = 1.000000
+000000.184|   OKAY| Creating browser process.
+000000.184| ALWAYS| App file system path is: C:\Riot Games\League of Legends\
+000000.184| ALWAYS| Plugins file system path used : Plugins\.
+000000.184| ALWAYS| CEF Version: 91.1.23+g04c8d56+chromium-91.0.4472.164
+000000.185| ALWAYS| Trying to connect to app process, multiple attempts are normal.
+000000.187|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.187|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.187|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.187|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.187|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.187|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.187|   OKAY| Retries: 0
+000000.239|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.239|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.239|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.239|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.239|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.239|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.239|   OKAY| Retries: 0
+000000.290|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.290|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.290|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.290|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.290|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.290|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.290|   OKAY| Retries: 0
+000000.342|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.342|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.342|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.342|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.342|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.342|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.342|   OKAY| Retries: 0
+000000.394|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.394|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.394|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.394|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.394|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.394|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.394|   OKAY| Retries: 0
+000000.445|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.445|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.446|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.446|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.446|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.446|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.446|   OKAY| Retries: 0
+000000.497|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.497|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.497|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.497|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.497|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.497|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.497|   OKAY| Retries: 0
+000000.549|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.549|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.549|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.549|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.549|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.549|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.549|   OKAY| Retries: 0
+000000.601|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.601|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.601|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.601|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.601|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.601|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.601|   OKAY| Retries: 0
+000000.653|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.653|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.653|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.653|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.653|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.653|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.653|   OKAY| Retries: 0
+000000.704|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.704|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.704|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.704|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.704|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.704|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.704|   OKAY| Retries: 0
+000000.756|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.756|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.756|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.756|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.756|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.756|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.756|   OKAY| Retries: 0
+000000.807|  ERROR| ClientWebSocketTransport: After SSL_connect SSL_get_error returned 5...
+000000.807|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - The underlying BIO reported an I/O error.
+000000.807|  ERROR| ClientWebSocketTransport: SSL_ERROR_SYSCALL - errno is 10054: Connection reset by peer.
+000000.807|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.807|   OKAY| Reads - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.807|   OKAY| Writes - Count : 0   Total Bytes: 0   Average Bytes: 0
+000000.807|   OKAY| Retries: 0
+000002.893| ALWAYS| Connected to app process after 14 attempts.
+000005.001|   OKAY| Working Set Size: 235MiB (+30) Peak: 265MiB (+16)   Pagefile Usage: 198MiB (+26) Peak: 198MiB (+26)
+000007.021| ALWAYS| Backend process is now running, will proceed with 0 delayed tasks.
+000010.145| ALWAYS| URL scheme deep links support added for: riotclient
+000011.148|   OKAY| Setting mouse intercept hook.
+000011.148|   OKAY| New window requested at 0,0 with dimensions 1280,720.
+000011.155|   OKAY| Creating ux window with url https://riot:GefgCEHJpkWwGWsvDC1HiA@127.0.0.1:37819/bootstrap.html.
+000011.155| ALWAYS| Deleting non-allowlisted cookies
+000011.160|   OKAY| Running message loop.
+000011.167|   OKAY| Creating main WindowAppModule window 1.
+000012.170|   OKAY| Creating main browser window 1.
+000012.176|   OKAY| Preparing browse browserId = 1, mainFrameId = 17179869185, frameId = 17179869185, mainUri = "", uri = "", transitionType = "TT_EXPLICIT", request = "GET https://riot:GefgCEHJpkWwGWsvDC1HiA@127.0.0.1:37819/bootstrap.html", isRedirect = false
+000013.608|   OKAY| Preparing browse browserId = 1, mainFrameId = 17179869185, frameId = 17179869185, mainUri = "https://riot:GefgCEHJpkWwGWsvDC1HiA@127.0.0.1:37819/bootstrap.html", uri = "https://riot:GefgCEHJpkWwGWsvDC1HiA@127.0.0.1:37819/bootstrap.html", transitionType = "TT_EXPLICIT", request = "GET https://riot:GefgCEHJpkWwGWsvDC1HiA@127.0.0.1:37819/index.html", isRedirect = false
+000013.642| ALWAYS| Window 1 is now visible.
+000013.659|   OKAY|                 javascript| WebSocket event: OPEN
+000015.001|   OKAY| Working Set Size: 293MiB (+58) Peak: 293MiB (+28)   Pagefile Usage: 246MiB (+48) Peak: 246MiB (+48)
+000015.511|  ERROR|  rcp-fe-common-libs| Error thrown by observer., detail={"path":"/lol-gameflow/v1/session","error":{}}
+000015.511|  ERROR|  rcp-fe-common-libs| Error thrown by observer., detail={"path":"/lol-gameflow/v1/session","error":{}}
+000015.511|  ERROR|  rcp-fe-common-libs| Error thrown by observer., detail={"path":"/lol-store/v1/alias-change-notifications","error":{}}
+000015.528|   OKAY| rcp-fe-lol-shared-components| Get machine spec, detail=5
+000015.543|  ERROR|  rcp-fe-common-libs| Error thrown by observer., detail={"path":"/lol-gameflow/v1/session","error":{}}
+000016.108|   WARN|  rcp-fe-ember-libs| ember-data-binding instantiated with no socket, will not receive updates, detail="rcp-fe-lol-tft:mixins:data-binding"
+000020.001|   OKAY| Working Set Size: 317MiB (+24) Peak: 317MiB (+24)   Pagefile Usage: 271MiB (+25) Peak: 271MiB (+25)
+000074.168|  ERROR|  rcp-fe-lol-lock-and-load| Lock loader promise rejected. Possible timeout?, detail={"lockName":"rcp-fe-lol-lock-and-load:allPluginsLoaded","elapsedTimeMs":60000}
+000147.288|   OKAY| CacheStats (expired): total: 17 files, 1325464 bytes, 20 uses / served: 1 unique, 3 total, 1149696 bytes.
+000965.290|   WARN| StaticResourceHandler unable to find file: /lol-game-data/assets/v1/summoner-spells.json/
+000965.290|   WARN| StaticResourceHandler unable to find file: /lol-game-data/assets/v1/ward-skins.json/
+001005.021|   OKAY| Pagefile Usage: 282MiB (+11) Peak: 282MiB (+11)
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.841|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001006.887|  ERROR|                 javascript| Uncaught (in promise) TypeError: Cannot read property 'hasHighlight' of undefined
+001007.080|   OKAY| Preparing browse browserId = 1, mainFrameId = 17179869185, frameId = 17179869202, mainUri = "https://riot:GefgCEHJpkWwGWsvDC1HiA@127.0.0.1:37819/index.html", uri = "", transitionType = "TT_AUTO_SUBFRAME", request = "GET https://static.rgpub.io/pcs/leagueclient/home-overview/#protocol=https:&port=37819", isRedirect = false
+001035.022|   OKAY| Working Set Size: 326MiB (+9) Peak: 330MiB (+13)
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.648|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001092.791|   OKAY| CacheStats (expired): total: 2 files, 257483 bytes, 2 uses / served: 0 unique, 0 total, 0 bytes.
+001105.415|   WARN| rcp-fe-lol-shared-components| LeagueTierNames received an unrecognized tier
+001105.511|   OKAY|  rcp-fe-lol-champ-select| champSelect received chatObfuscatedSummonerIds: null
+001107.781| ALWAYS| Window 1 is now visible.
+001107.781|   OKAY| Window 1 is activated.
+001107.799|   OKAY| CacheStats (expired): total: 16 files, 1731311 bytes, 16 uses / served: 0 unique, 0 total, 0 bytes.
+001110.023|   OKAY| Pagefile Usage: 293MiB (+11) Peak: 293MiB (+11)
+001112.999|   OKAY|                 javascript| rcp-fe-lol-paw: Plugin lazy initialization started by https://127.0.0.1:37819/fe/lol-champ-select/rcp-fe-lol-champ-select.js calling closePawModal
+001115.023|   OKAY| Working Set Size: 337MiB (+11) Peak: 338MiB (+8)
+001122.808|   OKAY| CacheStats (expired): total: 1 files, 122223 bytes, 1 uses / served: 0 unique, 0 total, 0 bytes.
+001126.111| ALWAYS| Window 1 is now visible.
+001126.111|   OKAY| Window 1 is activated.
+001126.111|   OKAY| AllowSetForegroundWindow BrowserProcess worked 
+001126.114| ALWAYS| Window 1 is now hidden.
+001126.114|   OKAY| Close browsers requested
+001126.122|   OKAY| Main windows received quit command.
+001126.727|   OKAY| Terminating window manager.
+001126.729|   OKAY| Shutting down RiotRemoting.
+001126.730|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+001126.730|   OKAY| Reads - Count : 13886   Total Bytes: 13959383   Average Bytes: 1005
+001126.730|   OKAY| Writes - Count : 30   Total Bytes: 2398   Average Bytes: 79
+001126.730|   OKAY| Retries: 0
+001126.730|   OKAY| Releasing browser process.
+001126.730|   OKAY| CacheStats (purging): total: 804 files, 66790788 bytes, 886 uses / served: 27 unique, 82 total, 21102066 bytes.
+001126.731|   OKAY| Cleaning up Ux Resources.
+001126.732|   OKAY| Shutting down CEF.
+001126.743|   OKAY| Exiting ux.
+001126.744|   OKAY| Working Set Size: 303MiB Peak: 338MiB   Pagefile Usage: 262MiB Peak: 262MiB   Private Usage: 1305670057MiB
+001126.744|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+001126.744|   OKAY| Committed Total: 343MiB   Committed Image: 198MiB   Committed Mapped: 22MiB   Committed Private: 122MiB   Reserved Total: 43MiB   Reserved Image: 0MiB   Reserved Mapped: 0MiB   Reserved Private: 43MiB   Free Total: 134217340MiB   Limit: 134217727MiB   Largest Free: 129222706MiB   Region Count: 1669
+001126.744|   OKAY| Page Fault Count: 0K

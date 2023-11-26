@@ -1,101 +1,1362 @@
-Started initial process 2292720 from gamemoderun /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/bin/wine /home/saus/Games/league-of-legends/drive_c/Riot Games/Riot Client/RiotClientServices.exe --locale=en_US --launch-product=league_of_legends --launch-patchline=live
+Started initial process 842547 from gamemoderun /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/bin/wine /home/saus/Games/league-of-legends/drive_c/Riot Games/Riot Client/RiotClientServices.exe --locale=en_US --launch-product=league_of_legends --launch-patchline=live
 Start monitoring process.
 gamemodeauto: 
 fsync: up and running.
 wine: Using setpriority to control niceness in the [-10,10] range
+002c:fixme:winediag:LdrInitializeThunk wine-staging 8.0 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please mention your exact version when filing bug reports on winehq.org.
+0090:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0094:err:hid:udev_bus_init UDEV monitor creation failed
+0090:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0090:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+0090:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+00e4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0526FEF8
+0024:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0024:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0024:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 0481E2F4 0481E330 0481E2F8) returning a dummy value (current locale)
+0134:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0134:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0134:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0134:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000034FA68, 000000000021FAC0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000092C1C8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000092C248, 0000000001B2FAA0: stub!
+01b4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0536FEF8
+01b0:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+01b0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 0491FE98
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0xfac57f11) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x70454331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x70448b21) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x7046ea41) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x70403b21) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x704f4c51) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x706e0331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x7063c331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x71e34331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x729d9331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x72028331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x73b16331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x731e2331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x737e6331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x74ddd331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x74312331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x744f7331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x759f8331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x75a96331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x75c2d331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x75e54331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x753c1331) stub
+01d8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 0F46FEF8
+01e0:fixme:file:NtLockFile I/O completion on lock not implemented yet
+01e0:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0024:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 0481CC68 0481CCA4 0481CC6C) returning a dummy value (current locale)
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000921768, 0000000001B2FAA0: stub!
+0228:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFA, 165FFEF8
+0238:err:winediag:getaddrinfo Failed to resolve your host name IP
+0024:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 0481BA1C 0481BA58 0481BA20) returning a dummy value (current locale)
+02c8:err:rpc:I_RpcGetBuffer no binding
+029c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 1EA6F16C 1EA6F1A8 1EA6F170) returning a dummy value (current locale)
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009217E8, 0000000001B2FAA0: stub!
+0140:fixme:oleacc:find_class_data unhandled window class: L"tooltips_class32"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000921868, 0000000001B2FAA0: stub!
+007c:fixme:imm:ImeSetActiveContext himc 0000000000010026, flag 0 stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009218E8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000921968, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009356D8, 0000000001B2F940: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009219E8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000935860, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009357D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000091F2D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000091F240, 10002, 0000000001B2ECA0: stub
+03d0:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+03d4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00000000023EFF80
+03e8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00000000031EFF50
+0408:err:winediag:getaddrinfo Failed to resolve your host name IP
+03d0:fixme:imm:ImeSetActiveContext himc 0000000000010094, flag 0x1 stub!
+03d0:fixme:file:NtLockFile I/O completion on lock not implemented yet
+04d0:err:module:import_dll Library ddraw.dll (which is needed by L"C:\\windows\\system32\\dxdiagn.dll") not found
+04d0:err:ole:apartment_add_dll couldn't load in-process dll L"C:\\windows\\system32\\dxdiagn.dll"
+04d0:err:ole:com_get_class_object no class object {a65b8071-3bfe-4213-9a5b-491da4461ca7} could be created for context 0x1
+04d8:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0424:fixme:winsock:GetAddrInfoExW Unsupported cancel handle
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000093C9A0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000093E508, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000093C848, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000091F2D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000091F240, 10002, 0000000001B2ECA0: stub
+04d8:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0530:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001C7FF80
+04d8:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011EF18, 4): stub
+04d8:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+04d8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000775D97305B0, 16) stub
+04d8:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 000000000011D624, 0000000000000000 000000000011D620
+04d8:fixme:nls:get_dummy_preferred_ui_language (0x38 0x409 000000000011D624 0000000000000000 000000000011D620) returning a dummy value (current locale)
+04d8:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 000000000011D624, 000000000011D600 000000000011D620
+04d8:fixme:nls:get_dummy_preferred_ui_language (0x38 0x409 000000000011D624 000000000011D600 000000000011D620) returning a dummy value (current locale)
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+04d8:fixme:winsock:WSALookupServiceBeginW (000000000011D2B0 0xff0 000000000011D328) Stub!
+04d8:fixme:iphlpapi:NotifyAddrChange (Handle 000000000011D488, overlapped 00000775D9842908): stub
+04d8:fixme:userenv:RegisterGPNotification 0000000000000240 0
+04d8:fixme:userenv:RegisterGPNotification 0000000000000244 1
+04d8:fixme:shcore:IsOS (OS_DOMAINMEMBER) What should we return here?
+055c:fixme:wtsapi:WTSRegisterSessionNotification Stub 00000000000100C4 0x00000000
+04d8:fixme:win:GetPointerDevices (000000000011CEB4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0560:fixme:wpc:WindowsParentalControls_GetUserSettings ((null) 00000000049DF880)
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000093CA30, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000093C9A0, 10002, 0000000001B2ECA0: stub
+0574:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0574:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0574:fixme:file:NtLockFile I/O completion on lock not implemented yet
+05a0:fixme:file:NtLockFile I/O completion on lock not implemented yet
+05a0:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+05c0:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+0574:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+0574:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0574:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000003F56D518030, 16) stub
+05cc:fixme:thread:QueryThreadCycleTime (0000000000000148,000000000428FD60): stub!
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstdtls.so': libcrypto.so.1.1: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.052: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstdtls.so': libcrypto.so.1.1: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstflac.so': libFLAC.so.8: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.052: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstflac.so': libFLAC.so.8: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwebp.so': libwebp.so.6: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.052: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwebp.so': libwebp.so.6: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstsoup.so': libsoup-2.4.so.1: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.052: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstsoup.so': libsoup-2.4.so.1: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstrsdav1d.so': libdav1d.so.5: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.052: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstrsdav1d.so': libdav1d.so.5: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgsthls.so': libnettle.so.6: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.052: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgsthls.so': libnettle.so.6: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so: undefined symbol: gst_wayland_display_handle_context_get_handle
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so: undefined symbol: gst_wayland_display_handle_context_get_handle
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstvpx.so': libvpx.so.5: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstvpx.so': libvpx.so.5: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstjpeg.so': libjpeg.so.62: cannot open shared object file: No such file or directory
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstjpeg.so': libjpeg.so.62: cannot open shared object file: No such file or directory
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so: wrong ELF class: ELFCLASS32
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so: wrong ELF class: ELFCLASS32
 
-(wine:2293353): GStreamer-WARNING **: 14:31:10.820: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so: wrong ELF class: ELFCLASS32
-56175.281:0988:098c:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Program name: "LeagueClientUxRender.exe" (hash: f676b078b8a3bc16)
-56175.281:0988:098c:info:vkd3d-proton:vkd3d_instance_deduce_config_flags_from_environment: shader_cache is used, global_pipeline_cache is enforced.
-56175.281:0988:098c:info:vkd3d-proton:vkd3d_config_flags_init_once: VKD3D_CONFIG=''.
-56175.281:0988:098c:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 2.10.0.
-56175.281:0988:098c:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: 88e4f300cc0b5b6.
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: No more than 1 device local heap, assuming ReBAR-style access. Using DEVICE_LOCAL | HOST_COHERENT for UPLOAD.
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_memory_info_init_budgets: Applying resizable BAR budget to memory types: 0x10.
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics.
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device supports VK_EXT_mutable_descriptor_type.
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
-56175.360:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
-56175.362:0988:098c:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
-56175.362:0988:098c:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 6528, may be inaccurate.
-56175.362:0988:098c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
-56175.362:0988:098c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
-56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
-56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
-56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.110 ms.
-56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
-56175.362:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+(wine:843443): GStreamer-WARNING **: 22:53:24.053: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so: wrong ELF class: ELFCLASS32
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000940FB8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941038, 0000000001B2FAA0: stub!
+04d8:fixme:shell:SHGetPropertyStoreForWindow (0000000000010102 0000000140339730 0000000004218980) stub!
+04d8:fixme:shell:window_prop_store_SetValue 00000000042189B0, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},5}, 000000000011DD48
+04d8:fixme:shell:window_prop_store_SetValue 00000000042189B0, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},2}, 000000000011DD48
+04d8:fixme:shell:window_prop_store_SetValue 00000000042189B0, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},4}, 000000000011DD48
+056c:fixme:sync:NtSetInformationJobObject stub: 0x40c 4 0x500f2e8 4
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0540:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 00000000037BF7D0 00000000037BF7C0
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009410B8, 0000000001B2FAA0: stub!
+04d8:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011C7C0): stub!
+04d8:fixme:dwmapi:DwmExtendFrameIntoClientArea (0000000000010106, 000000000011B460) stub
+055c:fixme:wtsapi:WTSRegisterSessionNotification Stub 00000000000100C6 0x00000000
+04d8:fixme:win:RegisterPowerSettingNotification (00000000000100C6,{2b84c20e-ad23-4ddf-93db-05ffbd7efca5},0): stub
+04d8:fixme:win:GetPointerDevices (000000000011C1F4 0000000000000000): partial stub
+0560:fixme:dwmapi:DwmGetWindowAttribute (000000000002008A 14 00000000049DF6D4 4) stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+04d8:fixme:imm:ImeSetActiveContext himc 00000000000100C0, flag 0x1 stub!
+0560:fixme:dwmapi:DwmGetWindowAttribute (000000000002008A 14 00000000049DF524 4) stub
+064c:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+064c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+064c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0664:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0664:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0684:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+064c:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+064c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+064c:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000006E0A7718030, 16) stub
+069c:fixme:winsock:WSALookupServiceBeginW (00000000048BE190 0xff0 00000000048BE208) Stub!
+069c:fixme:iphlpapi:NotifyAddrChange (Handle 00000000048BE368, overlapped 000006E0A77E15C8): stub
+069c:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000048BD678) semi-stub
+069c:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000048BD678) semi-stub
+069c:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000048BD678) semi-stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941138, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009411B8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941238, 0000000001B2FAA0: stub!
+0574:fixme:vulkan:wine_vk_surface_set_offscreen Redirecting vulkan surface offscreen, expect degraded performance.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009412B8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941338, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009413B8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941438, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009414B8, 0000000001B2FAA0: stub!
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941538, 0000000001B2FAA0: stub!
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+06c8:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941638, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000092E3F0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000092E360, 10002, 0000000001B2ECA0: stub
+06d0:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009416B8, 0000000001B2FAA0: stub!
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0574:fixme:dwmapi:DwmGetCompositionTimingInfo (0000000000000000 000000000011E610)
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000095E5D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000095E540, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941738, 0000000001B2FAA0: stub!
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009417B8, 0000000001B2FAA0: stub!
+06c8:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+06c8:fixme:file:NtLockFile I/O completion on lock not implemented yet
+06d0:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+06d0:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0770:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0770:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0778:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0778:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+07b4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+06c8:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+06c8:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06c8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000002BFA2B30030, 16) stub
+07c8:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+06d0:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+06c8:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011EAE0): stub!
+06d0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06d0:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000208F5B30030, 16) stub
+06d0:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011EAE0): stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941838, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009418B8, 0000000001B2FAA0: stub!
+084c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000762FF50
+06d0:fixme:dwrite:dwritefontface5_HasVariations 00000000009E5760: stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000976AA0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000976A10, 10002, 0000000001B2ECA0: stub
+04d8:fixme:win:NtUserFlashWindowEx 0x11cdf0 - semi-stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0870:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0870:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0870:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0878:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0878:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0898:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+0870:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+0870:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0870:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000001341B518030, 16) stub
+0870:fixme:pulse:AudioSessionControl_RegisterAudioSessionNotification (000000000095EF80)->(000001341B465B40) - stub
+08d0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",00000000054FFE9C): stub
+08d0:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941938, 0000000001B2FAA0: stub!
+03d0:fixme:event:wait_for_withdrawn_state window 0x10092/2e00005 wait timed out
+0904:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000860FF50
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+08d0:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0870:fixme:pulse:AudioSessionControl_UnregisterAudioSessionNotification (000000000095EF80)->(000001341B465B40) - stub
+098c:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+098c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+098c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0994:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0994:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+09b4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001A7FF80
+098c:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+098c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+098c:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000060506918030, 16) stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 00000000009419B8, 0000000001B2FAA0: stub!
+20652.870:0988:098c:info:vkd3d-proton:vkd3d_instance_apply_application_workarounds: Program name: "LeagueClientUxRender.exe" (hash: f676b078b8a3bc16)
+20652.870:0988:098c:info:vkd3d-proton:vkd3d_instance_deduce_config_flags_from_environment: shader_cache is used, global_pipeline_cache is enforced.
+20652.870:0988:098c:info:vkd3d-proton:vkd3d_config_flags_init_once: VKD3D_CONFIG=''.
+20652.871:0988:098c:info:vkd3d-proton:vkd3d_get_vk_version: vkd3d-proton - applicationVersion: 2.10.0.
+20652.871:0988:098c:info:vkd3d-proton:vkd3d_instance_init: vkd3d-proton - build: 88e4f300cc0b5b6.
+20652.953:0988:098c:info:vkd3d-proton:vkd3d_memory_info_upload_hvv_memory_properties: Topology: No more than 1 device local heap, assuming ReBAR-style access. Using DEVICE_LOCAL | HOST_COHERENT for UPLOAD.
+20652.953:0988:098c:info:vkd3d-proton:vkd3d_memory_info_init_budgets: Applying resizable BAR budget to memory types: 0x10.
+20652.954:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Enabling fast paths for advanced ExecuteIndirect() graphics.
+20652.954:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_get_bindless_flags: Device supports VK_EXT_mutable_descriptor_type.
+20652.954:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+20652.954:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+20652.954:0988:098c:info:vkd3d-proton:vkd3d_bindless_state_add_binding: Device supports VK_EXT_descriptor_buffer!
+20652.955:0988:098c:info:vkd3d-proton:d3d12_device_caps_init_shader_model: Enabling support for SM 6.6.
+20652.955:0988:098c:fixme:vkd3d-proton:d3d12_device_caps_init_feature_options1: TotalLaneCount = 6528, may be inaccurate.
+20652.955:0988:098c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Remapping VKD3D_SHADER_CACHE to: vkd3d-proton.cache.
+20652.955:0988:098c:info:vkd3d-proton:vkd3d_pipeline_library_init_disk_cache: Attempting to load disk cache from: vkd3d-proton.cache.
+20652.956:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Performing async setup of stream archive ...
+20652.956:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_merge: No write cache exists. No need to merge any disk caches.
+20652.956:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Merging pipeline libraries took 0.111 ms.
+20652.956:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_cache_initial_setup: Failed to map read-only cache: vkd3d-proton.cache.
+20652.956:0988:09f4:info:vkd3d-proton:vkd3d_pipeline_library_disk_thread_main: Done performing async setup of stream archive.
+0994:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097BA20, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000095E5D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000095E540, 10002, 0000000001B2ECA0: stub
+04d8:fixme:win:GetPointerDevices (000000000011D014 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096B2A0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000096B210, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097DAF0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000095E5D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000095E540, 10002, 0000000001B2ECA0: stub
+0870:fixme:pulse:AudioSessionControl_RegisterAudioSessionNotification (000000000095EF80)->(000001341B465840) - stub
+0b18:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",00000000056CFE9C): stub
+0b18:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000973730, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009736A0, 10002, 0000000001B2ECA0: stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:win:GetPointerDevices (000000000011CFC4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF6190)
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF6190)
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF6190)
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097DB20, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000097DA90, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 0000000000941A38, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096AA30, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000096A9A0, 10002, 0000000001B2ECA0: stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000092B020, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000092AF90, 10002, 0000000001B2ECA0: stub
+04d8:fixme:win:GetPointerDevices (000000000011CFC4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF6190)
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF6190)
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF6190)
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097F2E0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000097F250, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 0000000000941A38, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000976A10, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000976980, 10002, 0000000001B2ECA0: stub
+0b18:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+0870:fixme:pulse:AudioSessionControl_UnregisterAudioSessionNotification (000000000095EF80)->(000001341B465840) - stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097A210, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0870:fixme:pulse:AudioSessionControl_RegisterAudioSessionNotification (000000000095EF80)->(000001341B466A40) - stub
+0bac:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",00000000054FFE9C): stub
+0bac:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097D210, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000097D180, 10002, 0000000001B2ECA0: stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0be4:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0be4:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0be4:fixme:file:NtLockFile I/O completion on lock not implemented yet
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0bfc:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0bfc:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+002c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+0be4:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+0be4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0be4:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000041E87530030, 16) stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0be4:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011EAE0): stub!
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0b14:fixme:secur32:get_cipher_algid unknown algorithm 23
+0b14:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0b14:fixme:secur32:get_cipher_algid unknown algorithm 23
+0b14:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941A38, 0000000001B2FAA0: stub!
+0b14:fixme:secur32:get_cipher_algid unknown algorithm 23
+0b14:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0b14:fixme:secur32:get_cipher_algid unknown algorithm 23
+0b14:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+06c8:fixme:dwrite:dwritefontface5_HasVariations 0000000000A1F520: stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:win:GetPointerDevices (000000000011CFC4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097A240, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000097A1B0, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009775C0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000095FEB0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000095FE20, 10002, 0000000001B2ECA0: stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF64F0)
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF64F0)
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF64F0)
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:fixme:msctf:TextStoreACPSink_OnLayoutChange STUB:(0000000003EF64F0)
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 0000000000941AB8, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096A180, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000977000, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000976F70, 10002, 0000000001B2ECA0: stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0bac:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+0870:fixme:pulse:AudioSessionControl_UnregisterAudioSessionNotification (000000000095EF80)->(000001341B466A40) - stub
+04d8:fixme:win:GetPointerDevices (000000000011CFC4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009763F0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000976360, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096E980, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000977000, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000976F70, 10002, 0000000001B2ECA0: stub
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0870:fixme:pulse:AudioSessionControl_RegisterAudioSessionNotification (000000000095EF80)->(000001341B4669A0) - stub
+032c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",00000000054FFE9C): stub
+032c:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 0000000000941AB8, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 0000000000941AB8, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000966A40, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000963CC0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000963C30, 10002, 0000000001B2ECA0: stub
+04d8:fixme:win:GetPointerDevices (000000000011D014 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096AD90, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000096AD00, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009751F0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000963CC0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000963C30, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+04d8:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 0000000000941AB8, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+069c:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009757E0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0770:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000973960, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009738D0, 10002, 0000000001B2ECA0: stub
+04d8:fixme:win:GetPointerDevices (000000000011CFC4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000097A630, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000097A5A0, 10002, 0000000001B2ECA0: stub
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000979240, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+04d8:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000973960, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009738D0, 10002, 0000000001B2ECA0: stub
+0614:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_FIRMWARE_TABLE_INFORMATION action 0
+0614:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_FIRMWARE_TABLE_INFORMATION action 0
+0614:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_FIRMWARE_TABLE_INFORMATION action 0
+0618:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0618:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+062c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 0000000001C7FF80
+0618:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011EF18, 4): stub
+0618:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0618:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000000EA1D305B0, 16) stub
+0618:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 000000000011D624, 0000000000000000 000000000011D620
+0618:fixme:nls:get_dummy_preferred_ui_language (0x38 0x409 000000000011D624 0000000000000000 000000000011D620) returning a dummy value (current locale)
+0618:fixme:nls:RtlGetThreadPreferredUILanguages 00000038, 000000000011D624, 000000000011D600 000000000011D620
+0618:fixme:nls:get_dummy_preferred_ui_language (0x38 0x409 000000000011D624 000000000011D600 000000000011D620) returning a dummy value (current locale)
+04d8:fixme:win:NtUserFlashWindowEx 0x11ce70 - semi-stub
+04d8:fixme:win:GetPointerDevices (000000000011C2A4 0000000000000000): partial stub
+04d8:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+04d8:fixme:shell:window_prop_store_SetValue 00000000042189B0, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},5}, 000000000011CDE0
+04d8:fixme:shell:window_prop_store_SetValue 00000000042189B0, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},2}, 000000000011CDE0
+04d8:fixme:shell:window_prop_store_SetValue 00000000042189B0, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},4}, 000000000011CDE0
+032c:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+0778:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0618:fixme:winsock:WSALookupServiceBeginW (000000000011D2B0 0xff0 000000000011D328) Stub!
+0618:fixme:iphlpapi:NotifyAddrChange (Handle 000000000011D488, overlapped 0000000EA1E42908): stub
+0618:fixme:userenv:RegisterGPNotification 0000000000000240 0
+0618:fixme:userenv:RegisterGPNotification 0000000000000244 1
+0618:fixme:shcore:IsOS (OS_DOMAINMEMBER) What should we return here?
+0654:fixme:wtsapi:WTSRegisterSessionNotification Stub 0000000000020148 0x00000000
+0618:fixme:win:GetPointerDevices (000000000011CEB4 0000000000000000): partial stub
+0618:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+06c0:fixme:wpc:WindowsParentalControls_GetUserSettings ((null) 00000000049DF880)
+06e8:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0540:fixme:userenv:UnregisterGPNotification 0000000000000240
+0540:fixme:userenv:UnregisterGPNotification 0000000000000244
+069c:fixme:iphlpapi:CancelIPChangeNotify (overlapped 000006E0A77E15C8): stub
+0bfc:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+064c:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEF8
+0664:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+04d8:fixme:msctf:ThreadMgr_Destructor Left Over ITfDocumentMgr.  Should we do something with it?
+0878:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+05a0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+04d8:fixme:wtsapi:WTSUnRegisterSessionNotification Stub 00000000000100C4
+04d8:fixme:iphlpapi:CancelIPChangeNotify (overlapped 00000775D9842908): stub
+04d8:fixme:win:UnregisterPowerSettingNotification (00000000DEADBEEF): stub
+04d8:fixme:wtsapi:WTSUnRegisterSessionNotification Stub 00000000000100C6
+04d8:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEF8
+06e8:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+06e8:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0848:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0848:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0900:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+06e8:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+06e8:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+06e8:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000001440E518030, 16) stub
+0924:fixme:thread:QueryThreadCycleTime (0000000000000148,000000000428FD60): stub!
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstdtls.so': libcrypto.so.1.1: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstdtls.so': libcrypto.so.1.1: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstflac.so': libFLAC.so.8: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstflac.so': libFLAC.so.8: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwebp.so': libwebp.so.6: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwebp.so': libwebp.so.6: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstsoup.so': libsoup-2.4.so.1: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstsoup.so': libsoup-2.4.so.1: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.535: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstrsdav1d.so': libdav1d.so.5: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstrsdav1d.so': libdav1d.so.5: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgsthls.so': libnettle.so.6: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgsthls.so': libnettle.so.6: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so: undefined symbol: gst_wayland_display_handle_context_get_handle
+(wine:875798): GStreamer-WARNING **: 23:06:25.102: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstwaylandsink.so: undefined symbol: gst_wayland_display_handle_context_get_handle
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstvpx.so': libvpx.so.5: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstvpx.so': libvpx.so.5: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstjpeg.so': libjpeg.so.62: cannot open shared object file: No such file or directory
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib64/gstreamer-1.0/libgstjpeg.so': libjpeg.so.62: cannot open shared object file: No such file or directory
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstdtls.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstflac.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwebp.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstsoup.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstrsdav1d.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgsthls.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstwaylandsink.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstvpx.so: wrong ELF class: ELFCLASS32
 
-(wine:2347758): GStreamer-WARNING **: 14:53:02.536: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so: wrong ELF class: ELFCLASS32
+(wine:875798): GStreamer-WARNING **: 23:06:25.103: Failed to load plugin '/home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so': /home/saus/.local/share/lutris/runners/wine/lutris-ge-lol-p8-12-x86_64/lib/gstreamer-1.0/libgstjpeg.so: wrong ELF class: ELFCLASS32
+0618:fixme:shell:SHGetPropertyStoreForWindow (00000000000200CE 0000000140339730 00000000041B8E10) stub!
+0618:fixme:shell:window_prop_store_SetValue 00000000041B8E40, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},5}, 000000000011DD48
+0618:fixme:shell:window_prop_store_SetValue 00000000041B8E40, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},2}, 000000000011DD48
+0618:fixme:shell:window_prop_store_SetValue 00000000041B8E40, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},4}, 000000000011DD48
+06e0:fixme:sync:NtSetInformationJobObject stub: 0x40c 4 0x500f2e8 4
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+063c:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 00000000037BF7D0 00000000037BF7C0
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941AB8, 0000000001B2FAA0: stub!
+0618:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011C7C0): stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000979270, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009791E0, 10002, 0000000001B2ECA0: stub
+0618:fixme:dwmapi:DwmExtendFrameIntoClientArea (00000000000200E8, 000000000011B460) stub
+0654:fixme:wtsapi:WTSRegisterSessionNotification Stub 0000000000030154 0x00000000
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000973960, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009738D0, 10002, 0000000001B2ECA0: stub
+0618:fixme:win:RegisterPowerSettingNotification (0000000000030154,{2b84c20e-ad23-4ddf-93db-05ffbd7efca5},0): stub
+0618:fixme:win:GetPointerDevices (000000000011C1F4 0000000000000000): partial stub
+06c0:fixme:dwmapi:DwmGetWindowAttribute (000000000002008A 14 00000000049DF6D4 4) stub
+0618:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0618:fixme:imm:ImeSetActiveContext himc 0000000000020132, flag 0x1 stub!
+06c0:fixme:dwmapi:DwmGetWindowAttribute (000000000002008A 14 00000000049DF524 4) stub
+0650:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0650:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0650:fixme:file:NtLockFile I/O completion on lock not implemented yet
+094c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+094c:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0960:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+0650:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+0650:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0650:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 000002C113D18030, 16) stub
+08f8:fixme:winsock:WSALookupServiceBeginW (00000000048BE190 0xff0 00000000048BE208) Stub!
+08f8:fixme:iphlpapi:NotifyAddrChange (Handle 00000000048BE368, overlapped 000002C113DE15C8): stub
+08f8:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000048BD678) semi-stub
+08f8:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000048BD678) semi-stub
+08f8:fixme:wlanapi:WlanEnumInterfaces (0000000000000001, 0000000000000000, 00000000048BD678) semi-stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941B38, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941BB8, 0000000001B2FAA0: stub!
+06e8:fixme:vulkan:wine_vk_surface_set_offscreen Redirecting vulkan surface offscreen, expect degraded performance.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941C38, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941CB8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941D38, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 0000000000941DB8, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D188, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D208, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D288, 0000000001B2FAA0: stub!
+08f8:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D308, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D388, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D408, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D488, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D508, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D588, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D608, 0000000001B2FAA0: stub!
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+09c4:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+09f4:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D688, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 0000000000973960, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 00000000009738D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D708, 0000000001B2FAA0: stub!
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098B930, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000098B8A0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D788, 0000000001B2FAA0: stub!
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D808, 0000000001B2FAA0: stub!
+06e8:fixme:dwmapi:DwmGetCompositionTimingInfo (0000000000000000 000000000011E610)
+09c4:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+09c4:fixme:file:NtLockFile I/O completion on lock not implemented yet
+09f4:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+09f4:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0a34:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0a34:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0a38:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0a38:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0a8c:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+09c4:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+09c4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+09c4:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000297E5130030, 16) stub
+0a74:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+09f4:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+09f4:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+09f4:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 0000055803B30030, 16) stub
+09c4:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011EAE0): stub!
+09f4:fixme:thread:QueryThreadCycleTime (FFFFFFFFFFFFFFFE,000000000011EAE0): stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D888, 0000000001B2FAA0: stub!
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D908, 0000000001B2FAA0: stub!
+09f4:fixme:dwrite:dwritefontface5_HasVariations 00000000009E5760: stub
+0618:fixme:win:NtUserFlashWindowEx 0x11cdf0 - semi-stub
+08f8:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+08f8:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0b3c:err:kerberos:kerberos_LsaApInitializePackage no Kerberos support, expect problems
+0b3c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0b3c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0b68:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0b68:fixme:process:SetProcessShutdownParameters (00000100, 00000001): partial stub.
+0ab4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000294FF80
+0b3c:fixme:process:GetProcessMitigationPolicy (FFFFFFFFFFFFFFFF, 4, 000000000011F6C8, 4): stub
+0b3c:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0b3c:fixme:ntdll:EtwEventSetInformation (deadbeef, 2, 00000711B3318030, 16) stub
+0b3c:fixme:pulse:AudioSessionControl_RegisterAudioSessionNotification (000000000095EF80)->(00000711B3266540) - stub
+0b90:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",00000000054FFE9C): stub
+0b90:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_get_FragmentRoot 000000000097D988, 0000000001B2FAA0: stub!
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098B930, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000098B8A0, 10002, 0000000001B2ECA0: stub
+01cc:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 000000000843FF50
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0618:fixme:win:GetPointerDevices (000000000011D014 0000000000000000): partial stub
+0618:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009642B0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000964220, 10002, 0000000001B2ECA0: stub
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009887A0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098B930, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000098B8A0, 10002, 0000000001B2ECA0: stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098D4D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000098D440, 10002, 0000000001B2ECA0: stub
+0618:fixme:win:GetPointerDevices (000000000011D014 0000000000000000): partial stub
+0618:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009887D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 0000000000988740, 10002, 0000000001B2ECA0: stub
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000091EEA0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098D4D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000098D440, 10002, 0000000001B2ECA0: stub
+0b90:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+08f8:fixme:winsock:setsockopt Ignoring SO_RANDOMIZE_PORT
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0b3c:fixme:pulse:AudioSessionControl_UnregisterAudioSessionNotification (000000000095EF80)->(00000711B3266540) - stub
+0140:fixme:oleacc:find_class_data unhandled window class: L"#32769"
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096C4E0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000096C450, 10002, 0000000001B2ECA0: stub
+0618:fixme:win:GetPointerDevices (000000000011CFC4 0000000000000000): partial stub
+0618:fixme:system:NtUserDisplayConfigGetDeviceInfo Unimplemented packet type 11.
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000091EED0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000091EE40, 10002, 0000000001B2ECA0: stub
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098DA90, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000096C4E0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000096C450, 10002, 0000000001B2ECA0: stub
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0b3c:fixme:pulse:AudioSessionControl_RegisterAudioSessionNotification (000000000095EF80)->(00000711B3265A80) - stub
+0328:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",00000000054CFE9C): stub
+0328:fixme:avrt:AvSetMmThreadPriority (0000000012345678)->(2) stub
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30020
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:fixme:powermgnt:PowerCreateRequest (000000000011D940): stub
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0618:err:ole:marshal_object Failed to create an IRpcStubBuffer from IPSFactory for {00000114-0000-0000-c000-000000000046} with error 0x80004002
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_fragment_GetRuntimeId 000000000097DA08, 0000000001B2F9C0: stub!
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0618:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 00000000009900D0, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:uia_get_providers_for_hwnd Override provider callback currently unimplemented.
+0140:fixme:uiautomation:msaa_provider_GetPropertyValue Unimplemented propertyId 30024
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:uia_element_GetCurrentPropertyValueEx Default property values currently unimplemented
+0140:fixme:uiautomation:msaa_provider_GetPatternProvider Unimplemented patternId 10002
+0140:fixme:uiautomation:nc_provider_GetPatternProvider 000000000098B070, 10002, 0000000001B2ECA0: stub
+0140:fixme:uiautomation:base_hwnd_provider_GetPatternProvider 000000000098AFE0, 10002, 0000000001B2ECA0: stub
+0618:fixme:shell:window_prop_store_SetValue 00000000041B8E40, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},5}, 000000000011CFC0
+0618:fixme:shell:window_prop_store_SetValue 00000000041B8E40, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},2}, 000000000011CFC0
+0618:fixme:shell:window_prop_store_SetValue 00000000041B8E40, {{9f4c2855-9f79-4b39-a8d0-e1d42de1d5f3},4}, 000000000011CFC0
+0328:fixme:avrt:AvRevertMmThreadCharacteristics (0000000012345678): stub
+0a38:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+063c:fixme:userenv:UnregisterGPNotification 0000000000000240
+063c:fixme:userenv:UnregisterGPNotification 0000000000000244
+08f8:fixme:iphlpapi:CancelIPChangeNotify (overlapped 000002C113DE15C8): stub
+0a34:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0650:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEF8
+094c:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0848:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0b68:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+0618:fixme:msctf:ThreadMgr_Destructor Left Over ITfDocumentMgr.  Should we do something with it?
+0618:fixme:wtsapi:WTSUnRegisterSessionNotification Stub 0000000000020148
+0618:fixme:iphlpapi:CancelIPChangeNotify (overlapped 0000000EA1E42908): stub
+0618:fixme:win:UnregisterPowerSettingNotification (00000000DEADBEEF): stub
+0618:fixme:wtsapi:WTSUnRegisterSessionNotification Stub 0000000000030154
+0618:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEF8
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0xffffffffffffffff,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:process:NtQueryInformationProcess ProcessHandleCount (0x424,0x11ba30,0x00000004,(nil)) stub
+03d0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEF8
+0240:err:ole:CoUninitialize Mismatched CoUninitialize
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x76990991) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x76b6bc71) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x76b08461) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x76b2eb81) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x76bc3461) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x76804331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x768cd9a1) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x768b0c41) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x689ac331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x68171331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x69840331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6928e331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6a91a331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6af1e331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6a575331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6ba8a331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6bc6f331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6b110331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6b20e331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6b445331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6c9cc331) stub
+0024:fixme:font:NtGdiRemoveFontMemResourceEx (0x6cb79331) stub
+0024:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 0481FE98
+01e0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 007EFE98
 Monitored process exited.
 Initial process has exited (return code: 0)
 Exit with return code 0

@@ -1,5 +1,8 @@
 !! Transparency
-!!*.alpha: 0.8	//set directly in st/config.h so it doesnt affect text
+!!*.alpha: 0.8	//set this in st/config.h so it doesnt affect text
+
+!! Cursor
+Xcursor.theme: Nordzy-cursors-white
 
 !! Font and Size
 *.font: Hack Nerd Font Mono:style=Regular:pixelsize=22:autohint=true:antialias=true
@@ -19,7 +22,7 @@
 *foreground: #d4be98
 !! Cursor
 *cursorColor: #d4be98
-!! Black + DarkGrey (swapping color 0 & 8)
+!! Black + DarkGrey
 *color0:  #1D2021
 *color8:  #32302f
 !! DarkRed + Red
@@ -43,6 +46,6 @@
 !! LightGrey + White
 *color7:  #ad9c80
 *color15: #F2E5BC
-!!dwm
-dwm.color4: #779B72
+
+!!color swaps
 dmenu.color4: #779B72

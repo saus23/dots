@@ -19,19 +19,20 @@ export VKBASALT_CONFIG_FILE=~/.config/vkBasalt/vkBasalt.conf
 export IDAUSR=~/.config/idapro
 export AUDIBLE_CONFIG_DIR=~/.config/audible
 
-export PATH=$HOME/.config/scripts:$HOME/bin:$HOME/.local/bin:$HOME/.local/share/bin:$HOME/misc/appimages:/opt/cuda:$PATH
+export PATH=$HOME/.config/scripts:$HOME/.local/bin:$HOME/misc/tools/appimages:$PATH
 
 # variables
 export XDG_SESSION_TYPE=x11
 export GDK_BACKEND=x11
 export TERMINAL=st
 export EDITOR=nvim
-export BROWSER=librewolf
+export BROWSER=brave
 export CUDA_CACHE_DISABLE=0
 export CUDA_CACHE_MAXSIZE=4294967296
 export GTK_THEME=Gruvbox-Material-Dark
 export QT_QPA_PLATFORMTHEME=gtk2
-export QT_STYLE_OVERRIDE=Gruvbox-Material-Dark
+export QT_STYLE_OVERRIDE=qt6gtk2
+#export QT_STYLE_OVERRIDE=Gruvbox-Material-Dark
 export LIBVA_DRIVER_NAME=nvidia
 export VDPAU_DRIVER=nvidia
 export NVD_BACKEND=direct
@@ -39,6 +40,7 @@ export MOZ_DISABLE_RDD_SANDBOX=1
 export MOZ_X11_EGL=1
 export RANGER_LOAD_DEFAULT_RC=false
 export BAT_THEME=gruvbox-dark
+export MANPAGER='nvim +Man!'
 
 # vim shit
 export VIMINIT='let $MYVIMRC = has("nvim") ? "$XDG_CONFIG_HOME/nvim/init.lua" : "$XDG_CONFIG_HOME/vim/vimrc" | so $MYVIMRC'

@@ -11,12 +11,12 @@ setopt hist_ignore_all_dups
 setopt hist_reduce_blanks
 
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/saus/.config/zsh/.zshrc'
+zstyle :compinstall filename '$HOME/.config/zsh/.zshrc'
 autoload -Uz compinit
 compinit
 
 # Aliases
-alias ls='eza -lah --group-directories-first'
+alias ls='eza --no-quotes -lah --group-directories-first'
 alias c='bat'
 alias x='clean && exit'
 alias i7z='sudo i7z'
@@ -28,18 +28,15 @@ alias Ss='pacman -Ss'
 alias Qs='pacman -Qs'
 alias orphans='sudo pacman -Rns $(pacman -Qqdt)'
 alias deps='pacman -Qii'
-alias nordc='nordvpn connect'
-alias nordd='nordvpn disconnect'
-alias hist='history 1'
+alias nordc='sudo systemctl start nordvpnd.service && nordvpn connect Buffalo'
+alias nordd='nordvpn disconnect && sudo systemctl stop nordvpnd.service' 
+alias hist='history -f 1'
 alias v='nvim'
 alias sv='sudo -E -s nvim'
-alias rb='killall dbus-daemon && sudo reboot'
-alias sx='startx'
-alias mnt='sudo mount -o discard /dev/sda /mnt/media'
-alias umnt='sudo umount /mnt/media'
+alias rb='clean && sudo reboot'
+alias sx='startx -- -keeptty > ~/.cache/xorg/xerr.log 2>&1'
 alias liquidctl='sudo liquidctl'
-alias res='xrandr --output DP-4 --mode 3840x2160 --rate 119.91'
-alias nap='systemctl suspend'
+alias nap='cleansus'
 alias B='cd /mnt/media'
 alias neo='neofetch'
 alias fail='sudo systemctl list-units --failed'
@@ -50,21 +47,34 @@ alias pdf='evince'
 alias nv-set='nvidia-settings --config=~/.config/nvidia/settings/.nvidia-settings-rc'
 alias jlog='journalctl --no-pager -b -1 > journal.log'
 alias jctl='journalctl'
-alias db='sudo updatedb'
+alias updb='sudo updatedb'
 alias calc='bc --mathlib'
 alias smi='nvidia-smi'
-alias headset='pactl set-default-sink 9 && kill -44 $(pidof dwmblocks)'
-alias speakers='pactl set-default-sink 0 && kill -44 $(pidof dwmblocks)'
 alias fast='sudo bat /var/log/suricata/fast.log'
 alias notes='nvim ~/misc/notes/notes'
 alias restart='systemctl restart'
 alias dupes='fdupes --order=time -irdN'
-alias sd='killall dbus-daemon && sudo poweroff'
+alias sd='clean && sudo poweroff'
 alias crop='ffautocrop'
 alias ffp='ffprobe'
-alias d2='cd /mnt/media/Notes/d2-notes'
+alias d2='cd /mnt/media/notes/d2-notes'
 alias p='nomacs'
 alias code='cd ~/misc/code'
+alias ..='.. && ls'
+alias cam='gphoto2 --stdout --capture-movie | ffmpeg -hwaccel nvdec -c:v mjpeg_cuvid -i - -vcodec rawvideo -pix_fmt yuv420p -threads 16 -r 30 -s 1920x1080 -f v4l2 /dev/video0'
+alias camcheck='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
+alias mirrors='sudo reflector --country US --protocol http,https --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
+alias cnotes='nvim ~/misc/notes/C++_Notes.txt'
+alias zconf='nvim ~/.config/zsh/.zshrc'
+alias cam2='gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 16 -r 30 -s 1920x1080 -f v4l2 /dev/video0'
+alias scripts='cd ~/.config/scripts'
+alias zprof='nvim ~/.config/zsh/.zprofile'
+alias xlog='bat ~/.local/share/xorg/Xorg.0.log'
+alias xerr='bat ~/.cache/xorg/xerr.log'
+alias cast='castnow --address 192.168.1.123 --loop'
+alias itnotes='nvim ~/misc/notes/itnotes'
+alias res='xrandr --output DP-4 --mode 3840x2160 --rate 120'
+
 cd() { builtin cd "$@" && ls }
 
 # Variables
@@ -83,4 +93,4 @@ eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Window Title
-precmd () { print -Pn "\e]2;%~\a" }
+precmd() { print -Pn "\e]2;%~\a" }
